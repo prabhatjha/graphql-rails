@@ -9,13 +9,13 @@ To get familiar with pros and cons of GraphQL and try out some new tech
 
 Samples queries:
 
-```json
+```javascript
 {
   endUsers
 }
 ```
 
-```json
+```javascript
 {
   endUsers {
     email
@@ -27,7 +27,7 @@ Samples queries:
   }
 }
 ```
-```json
+```javascript
 {
   endUser(id: 1) {
     email
